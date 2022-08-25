@@ -1,0 +1,8 @@
+jtype: ConveRTFeaturizer
+with:
+  multiple_contexts: false
+py_modules:
+  - executor.py
+metas:
+  name: ConveRTFeaturizer
+  description: PolyAI's ConveRT model packaged in Jina.

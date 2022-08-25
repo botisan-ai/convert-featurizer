@@ -5,9 +5,5 @@ with:
   compression: Gzip
 #   protocol: http
 executors:
-# inline Executor YAML
 - name: convert_featurizer
-  uses:
-    jtype: ConveRTFeaturizer
-    py_modules:
-      - executor.py
+  uses: config.yml
