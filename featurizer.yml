@@ -1,0 +1,13 @@
+jtype: Flow
+version: '1'
+with:
+  port: 10024
+  compression: Gzip
+#   protocol: http
+executors:
+# inline Executor YAML
+- name: convert_featurizer
+  uses:
+    jtype: ConveRTFeaturizer
+    py_modules:
+      - executor.py
