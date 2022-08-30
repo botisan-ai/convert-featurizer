@@ -8,4 +8,4 @@ flow:
 	pipenv run jina flow --uses featurizer.yml --port $$FLOW_PORT
 
 publish:
-	pipenv run jina push --public .
+	pipenv run jina hub push --public .
