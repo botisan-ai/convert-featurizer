@@ -1,6 +1,7 @@
 jtype: Flow
 version: '1'
 with:
+  port: ${{ ENV.FLOW_PORT }}
   compression: Gzip
 #   protocol: http
 executors:
