@@ -1,2 +1,10 @@
 manifest_version: 1
 name: ConveRTFeaturizer
+url: https://github.com/botisan-ai/convert-featurizer
+keywords:
+  - pretrained-model
+  - polyai
+  - ConveRTFeaturizer
+  - ConveRT
+  - NLP
+  - LLM
